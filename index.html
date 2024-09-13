@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="">
+
+
+  <div class="min-h-screen px-4 flex flex-col justify-center items-center">
+    <div class="">
+      <h1 id="level-title" class="p-[5%]   text-[4rem] lg:text-[3rem] " >Press a Key or button to Start</h1>
+      <div class="container">
+        <div class="row">
+    
+          <div type="button" id="green" class="h-[300px] w-[300px] lg:h-[200px] lg:w-[200px] btn green ">
+    
+          </div>
+    
+          <div type="button" id="red" class="h-[300px] w-[300px] lg:h-[200px] lg:w-[200px] btn red">
+    
+          </div>
+        </div>
+    
+        <div class="row">
+    
+          <div type="button" id="yellow" class="h-[300px] w-[300px] lg:h-[200px] lg:w-[200px] btn yellow">
+    
+          </div>
+          <div type="button" id="blue" class="h-[300px] w-[300px] lg:h-[200px] lg:w-[200px] btn blue">
+    
+          </div>
+    
+        </div>
+
+        <button id="rstbtn" class="bg-red-900 rounded-2xl border-2 border-black  mt-20   text-4xl font-bold h-[80px] px-6 ">Start</button>
+    
+      </div>
+    </div>
+    
+  </div>
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
